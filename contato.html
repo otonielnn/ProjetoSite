@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img id="icon" src="Icon.svg" alt="Icone da clinica">
+                <h1 id="titulo">DioClin</h1>
+            </div>
+
+            <div class="content">
+                <h2>Contatos</h2>
+                <ul>
+                    <li>Telefone: 81 91234-5678</li>
+                    <li>Avenida 1, 320º</li>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.333013242951!2d-34.998897524020045!3d-8.067475380624456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1c80c05e2f05%3A0x10195f86e5ca1419!2sAv.%20Um%2C%20320%20-%20Curado%20IV%2C%20Jaboat%C3%A3o%20dos%20Guararapes%20-%20PE%2C%2054270-085!5e0!3m2!1spt-BR!2sbr!4v1689274706606!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </ul>
+
+                <form action="index.html">
+                    <label for="nome">
+                        Nome: <input type="text">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="email">
+                        email: <input type="email">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="assunto">
+                        Assunto: <input type="text">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="mensagem">
+                        Mensagem: <textarea cols="30" rows="10"></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <button type="reset">Limpar</button>
+                    <button type="submit" onclick="alert('Mensagem enviada')">Enviar</button>
+                </form>
+            </div>
+
+            <div class="footer">
+                <ul>
+                    <h3>Fale Conosco</h3>
+                    <li>Fone: 81 91234-5678</li>
+                    <li>Insta: @DioClin</li>
+                    <li>Email: Dio@contato.com.br</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
